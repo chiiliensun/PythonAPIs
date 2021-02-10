@@ -1,4 +1,4 @@
-City,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Country,Date
+City,Lat,Lng,Max Temp (F),Humidity (%),Cloudiness (%),Wind Speed (MPH),Country,Date
 busselton,-33.65,115.3333,61.0,75,57,4.0,AU,1612916456
 kamenka,51.3223,42.7678,12.0,90,100,10.45,RU,1612916148
 port alfred,-7.0349,29.7638,73.94,73,100,4.0,CD,1612916114
