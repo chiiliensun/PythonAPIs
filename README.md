@@ -40,6 +40,31 @@ There seems to be a slight correlation of cloud cover. The interesting observati
 
 This graph does not clearly indicate any correlation between latitude location and wind speed. Depending on weather events, this data could always be slightly skewed. If one compared this data set with severe weather events, it's possible to find interesting facts or indicators. 
 
+* Northern Hemisphere - Temperature (F) vs. Latitude
+* Southern Hemisphere - Temperature (F) vs. Latitude
+
+![Line Temp Lat](Images/RM_Temp_linear.png)
+
+As seen in the Northern Hemisphere (NH) graph, the further away from latitude 0 the max temperature steadily decreases; which clearly indicates a correlation. The further you move away from the equator (lat 0) the colder the maximum temperture reaches. The correlation is not nearly as strong in the Southern Hemisphere (SH) as the NH but it indicates there is a positive value. It does still show the maximum temperature increases as you move closer to the equator.
+
+* Northern Hemisphere - Humidity (%) vs. Latitude
+* Southern Hemisphere - Humidity (%) vs. Latitude
+
+![Line Humid Lat](Images/RM_Humid_linear.png)
+
+The correlation, as seen by the NH r-squared value, is smaller but still apparent. The further you move away from the equator the percentage of the humidity rises. The correlation decreases even further when reviewing the SH. The opposite is occurring in comparison with the NH, the further you move away from the equator, the humidity is slightly decreasing.
+
+* Northern Hemisphere - Cloudiness (%) vs. Latitude
+* Southern Hemisphere - Cloudiness (%) vs. Latitude
+
+![Line Cloud Lat](Images/RM_Cloud_linear.png)
+
+There is a much smaller correlation when viewing the NH graph without the linear regression placed. Once the linear regression is plotted, the line shows the slight increase of cloudiness as you move further away from the equator. In comparison with the NH, the correlation is much stronger in the South than North. This is again, only when you plot the linear regression on the scatter plot. If viewing the scatter plot without, there would be no clear indication there was a correlation. 
+
+* Northern Hemisphere - Wind Speed (mph) vs. Latitude
+* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+![Line Wind Lat](Images/RM_Wind_linear.png)
 
 ## Part II : VacationPy
 
